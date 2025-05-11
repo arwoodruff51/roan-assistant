@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "roan_assistant",
+  "name_for_human": "Rōan – Personal Assistant",
+  "description_for_model": "Access your Google Calendar, Drive, Gmail, and Tasks through Rōan. Ask things like 'What’s on my calendar next week?' or 'Delete all emails from DoNotReply@junk.com'.",
+  "description_for_human": "Your personal AI assistant with full access to your Google Calendar, Drive, Gmail, and Tasks.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://web-production-cf55.up.railway.app/openapi.yaml"
+  },
+  "logo_url": "https://arwoodruff51.github.io/roan-assistant/logo.png",
+  "contact_email": "arwoodruff@gmail.com",
+  "legal_info_url": "https://arwoodruff51.github.io/roan-assistant/privacy.html"
+}
+Add ai-plugin.json to .well-known for plugin verification
